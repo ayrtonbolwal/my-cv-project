@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 8rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+hr{
+    margin: 2rem 0;
+}
+
+h2, h3, h4{
+    margin: 1rem 0;
+}
+
+ul{
+    list-style: disc;
+    padding-left: 1rem;
+}
+ul li{
+    margin-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.left-section{
+    width: 3fr;
+}
+.left-section img{
+    width: 100%;
+    border-radius: 1rem 0 1rem 0;
+}
+.left-section .data-item .contact-list{
+    list-style: none;
+}
+.left-section .data-item .contact-list li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right-section{
+    width: 7fr;
+}
+.right-section h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.right-section .legend{
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+.right-section .info-item .story-item .story-item-list{
+    margin-top: 1rem;
+}
+
+.mater-soul{
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        padding: 5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .right-section h1{
+        font-size: 3rem;
+    }
+}
