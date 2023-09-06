@@ -3,134 +3,195 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./stylesheet/style.css" />
+    <link rel="stylesheet" href="stylesheet/style.css" />
 
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
-    <title>Mi Curriculum Vitae</title>
+    <title>Ayrton Bolaños CV</title>
   </head>
   <body>
-    <section class="left-section">
-      <img src="./img/profilePhoto.jpg" alt="" />
-      <hr />
-      <div class="data-item">
-        <h2>Contacto</h2>
-        <ul class="contact-list">
-          <li>
-            <box-icon type="solid" name="message-dots"></box-icon>
-            <p>271 137 6258</p>
-          </li>
-          <li>
-            <box-icon type="solid" name="phone"></box-icon>
-            <p>271 688 2034</p>
-          </li>
-          <li>
-            <box-icon type='solid' name='envelope'></box-icon>
-            <p>ayrtonbolwal@gmail.com</p>
-          </li>
-          <li>
-            <box-icon name='github' type='logo'></box-icon>
-            <p><a href="https://github.com/ayrtonbolwal">ayrtonbolwal</a></p>
-          </li>
-          <li>
-            <box-icon name='linkedin-square' type='logo' ></box-icon>
-            <p><a href="https://www.linkedin.com/in/ayrton-bola%C3%B1os-a11856274/">Ayrton Bolaños</a></p>
-          </li>
-        </ul>
-      </div>
-      <hr />
-      <div class="data-item">
-        <h2>Soft skills</h2>
-        <ul class="softskills-list">
-            <li>Comunicación</li>
-            <li>Enseñanza</li>
-            <li>Puntual</li>
-            <li>Acomedido</li>
-        </ul>
-      </div>
-      <div></div>
-    </section>
-    <section class="right-section">
-      <h1>Ayrton Raúl Bolaños Waldo</h1>
-      <p class="legend">Curriculum Vitae Web Developer Jr</p>
-      <hr />
-      <div class="info-item">
-        <h2>Resumen profesional</h2>
+    <header>
+      <div class="profile-photo"></div>
+      <section class="header-info">
+        <div class="title">
+          <p class="title-legend">Software Engineer</p>
+          <h1>Ayrton Bolaños</h1>
+        </div>
+        <div class="contact-info">
+          <h2>Contacto</h2>
+          <ul>
+            <li>
+              <box-icon name="phone" type="solid" color="#ffffff" size='md'></box-icon>
+              <p>+52 271 137 6258</p>
+            </li>
+            <li>
+              <box-icon name="envelope" type="solid" color="#ffffff" size='md'></box-icon>
+              <p>ayrtonbolwal@gmail.com</p>
+            </li>
+            <li>
+              <box-icon name="linkedin" type="logo" color="#ffffff" size='md'></box-icon>
+              <p>Ayrton Bolaños</p>
+            </li>
+          </ul>
+        </div>
+        <div class="personal-info">
+          <h2>Información Personal</h2>
+          <ul>
+            <li>
+              <box-icon name="map" type="solid" color="#ffffff" size='md'></box-icon>
+              <p>Córdoba, Veracruz</p>
+            </li>
+            <li>
+              <box-icon
+                name="briefcase-alt-2"
+                type="solid"
+                color="#ffffff"
+                size='md'
+              ></box-icon>
+              <p>Remoto / Presencial</p>
+            </li>
+            <li>
+              <box-icon name="user-pin" type="solid" color="#ffffff" size='md'></box-icon>
+              <p>Estudiante</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </header>
+    <section class="curriculum my-padding">
+      <div class="introducing-me">
+        <h2>Presentación</h2>
         <p>
-          Ingeniero de Software especializado en el área de diseño de interfaces
-          gráficas de usuario y análisis y medición de usabilidad web.
-          Desempeñando roles de UX y UI designer, y frontend developer. Al igual
-          que mentor en tecnologías para estudiantes de preparatoria en
-          tecnologías de HTML, CSS, JS y materias como POO e Introducción a la
-          Programación. He sido parte de varios proyectos y comunidades sin fines de lucro como lo son el Google Developer Students Club y Google Developers Group de Ixtaczoquitlán, realizado mi servicio social en el Registro Civil de Córdoba y la Universidad Veracruzana. 
+          Soy Ayrton, tengo 22 años, originario del centro de Veracruz; cercano
+          al área de programación desde el bachillerato donde me formé como
+          técnico en programación y ingresando posteriormente a la carrera de
+          Ingeniería de Software en la Universidad Veracruzana. Me agrada el
+          área de diseño y desarrollo web, diseño gráfico y de interfaces, así
+          como la creación de productos usables y que provean una buena
+          experiencia de uso al usuario final.
         </p>
       </div>
-      <hr />
-      <div class="info-item">
-        <h2>Historial laboral</h2>
-        <article class="story-item">
-          <h3>Atención al cliente</h3>
-          <p class="mater-soul">ASTI Consultoría de Software</p>
-          <p>Orizaba, Veracruz</p>
-          <ul class="story-item-list">
-            <li>Atención al cliente</li>
-            <li>Servicios de instalación</li>
-            <li>Mantenimiento de software</li>
-          </ul>
-        </article>
-        <article class="story-item">
-          <h3>Diseñador Gráfico</h3>
-          <p class="mater-soul">ASTI Consultoría de Software</p>
-          <p>Orizaba, Veracruz</p>
-          <ul class="story-item-list">
-            <li>Diseño de publicidad web</li>
-            <li>Elaboración y edición de videos publicitarios</li>
-            <li>Creación de marca</li>
-          </ul>
-        </article>
-        <article class="story-item">
-          <h3>Profesor de Bachillerato</h3>
-          <p class="mater-soul">Centro de Bachilleres Tecnológico e Industrial No. 47</p>
-          <p>Córdoba, Veracruz</p>
-          <ul class="story-item-list">
+      <section class="info-curriculum-lf">
+        <div class="item-info">
+          <h2>Historial Académico</h2>
+          <ul>
+            <li>Universidad Veracruzana, campus Ixtaczoquitlán</li>
             <li>
-              Asesorías personalizadas en herramientas de desarrollo de software
+              Centro de Bachilleratos Tecnológicos Industriales y de Servicios
+              No. 47
             </li>
-            <li>
-              Impartición de Introducción a la Programación e Introducción a
-              Programación Orientada a Objetos.
-            </li>
+            <li>DevF, Ciudad de México</li>
           </ul>
-        </article>
-      </div>
-      <hr>
-      <div class="info-item">
-        <h2>Formación Académica</h2>
-        <ul class="formation-list">
-          <li>
-            <p class="mater-soul">Universidad Veracruzana</p>
-            <p>Licenciatura en Ingeniería de Software</p>
-          </li>
-          <li>
-            <p class="mater-soul">
-              Centro de Bachillerato Tecnológico Industrial y de Servicios No.
-              47
-            </p>
-            <p>Técnico en Programación</p>
-          </li>
-          <li>
-            <p class="mater-soul">Dev.f</p>
-            <p>Desarrollador Web FrontEnd JR</p>
-          </li>
-        </ul>
-      </div>
+        </div>
+        <div class="item-info">
+          <h2>Comunidades</h2>
+          <ul>
+            <li>Google Developer Group Ixtac</li>
+            <li>DevF Community</li>
+          </ul>
+        </div>
+        <div class="item-info">
+          <h2>Cursos y Eventos</h2>
+          <ul>
+            <li>Diseño de Interfaces de Usuario de EDTeam</li>
+            <li>Introducción a Docker de Platzi</li>
+            <li>ReactJS en Udemy</li>
+            <li>Hackaton ONU Coding For Integrity 2023</li>
+            <li>Servicio Social MDEIT UV</li>
+            <li>GCFest 2022</li>
+            <li>Tutor de desarrollo web HTML, CSS y JS</li>
+          </ul>
+        </div>
+      </section>
+      <section class="info-curriculum-rg">
+        <div class="item-info tecnologias">
+          <h2>Tecnologías</h2>
+          <ul>
+            <li><box-icon name="github" type="logo" size='lg'></box-icon></li>
+            <li><box-icon name="git" type="logo" size='lg'></box-icon></li>
+            <li><box-icon name="html5" type="logo" size='lg'></box-icon></li>
+            <li><box-icon name="css3" type="logo" size='lg'></box-icon></li>
+            <li><box-icon name="file-js" type="solid" size='lg'></box-icon></li>
+            <li><box-icon name="react" type="logo" size='lg'></box-icon></li>
+            <li><box-icon name="figma" type="logo" size='lg'></box-icon></li>
+          </ul>
+        </div>
+        <div class="item-info">
+          <h2>Competencias</h2>
+          <ul>
+            <li>Mentalidad de crecimiento</li>
+            <li>Comunicación efectiva</li>
+            <li>Flexibilidad</li>
+            <li>Compromiso</li>
+            <li>Aprendizaje Independiente</li>
+          </ul>
+        </div>
+        <div class="item-info">
+          <h2>Hobbies</h2>
+          <ul>
+            <li>Diseño gráfico</li>
+            <li>Edición de video</li>
+            <li>Fotografía</li>
+          </ul>
+        </div>
+      </section>
     </section>
+    <section class="goodfathers my-padding">
+      <h2>Recomendaciones</h2>
+      <ul>
+        <li>
+          <img src="./img/unknow_person.jpg" alt="" />
+          <p>Dra. Claudia García</p>
+        </li>
+        <li>
+          <img src="./img/unknow_person.jpg" alt="" />
+          <p>Dr. Jorge Ernesto</p>
+        </li>
+        <li>
+          <img src="./img/unknow_person.jpg" alt="" />
+          <p>Dra Yara Jiménez</p>
+        </li>
+        <li>
+          <img src="./img/unknow_person.jpg" alt="" />
+          <p>Lic Alondra Amaro</p>
+        </li>
+        <li>
+          <img src="./img/unknow_person.jpg" alt="" />
+          <p>Ing Ximena Cruz</p>
+        </li>
+      </ul>
+    </section>
+    <footer class="my-padding">
+      <div class="footer-lf">
+        <h2>Contáctame ahora</h2>
+        <button class="btn-transparent">
+          <p>WhatsApp</p>
+          <box-icon name="whatsapp" type="logo" color="#ffffff" size='md'></box-icon>
+        </button>
+      </div>
+      <div class="footer-rg">
+        <h2>Repositorios y Portafolios</h2>
+        <section class="buttons-repos">
+          <button class="btn-transparent">
+            <box-icon name="github" type="logo" color="#ffffff" size='md'></box-icon>
+            <p>Dev</p>
+          </button>
+          <button class="btn-transparent">
+            <box-icon name="behance" type="logo" color="#ffffff" size='md'></box-icon>
+            <p>Design</p>
+          </button>
+          <button class="btn-transparent">
+            <box-icon name="behance" type="logo" color="#ffffff" size='md'></box-icon>
+            <p>Photo</p>
+          </button>
+        </section>
+      </div>
+    </footer>
   </body>
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </html>
